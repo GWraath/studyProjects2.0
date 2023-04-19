@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState, useRoutes } from 'react';
+import {Outlet} from 'react-router-dom';
 import PlantHome from './PlantHome'
 import PlantPNF from './PlantPNF';
 import { Routes, Route, Router } from 'react-router-dom';
@@ -15,7 +16,8 @@ import { PlantNew } from './PlantNew';
 import { UserNew } from './UserNew';
 import { UserInfoEdit } from './UserInfoEdit';
 import PgaeNotAllowed from './PNA';
-import PlantThemeOutlet from './PlantThemeOutlet';
+import PlantTheme from './PlantTheme';
+import PlantUserChat from './PlantUserChat';
 export const PlantContext = React.createContext();
 export const UsersContext = React.createContext();
 export const CurrentUserContext = React.createContext();
@@ -44,18 +46,19 @@ function App() {
                 <Routes>
                   <Route path='/' element={<PlantHome />} />
                   <Route path='/plantnew' element={<PlantNew />} />
-                  <Route path='/plantinfo' element={<PlantThemeOutlet />}>
+                  <Route path='/plantinfo' element={<PlantTheme component={<Outlet/>}/>}>
                     <Route path=':plantid' element={<PlantInfo />} />
                   </Route>
-                  <Route path='/plantinfoedit' element={<PlantThemeOutlet />}>
+                  <Route path='/plantinfoedit' element={<PlantTheme component={<Outlet/>}/>}>
                     <Route path=':planteditid' element={<PlantInfoEdit />} />
                   </Route>
                   <Route path='/users' element={<PlantUsers />} />
                   <Route path='/usernew' element={<UserNew />} />
-                  <Route path='/userinfo' element={<PlantThemeOutlet />}>
+                  <Route path='/userinfo' element={<PlantTheme component={<Outlet/>}/>}>
                     <Route path=':userid' element={<PlantUserInfo />} />
                   </Route>
-                  <Route path='/userinfoedit' element={<PlantThemeOutlet />}>
+                  <Route path='/chat' element={<PlantUserChat />}/>
+                  <Route path='/userinfoedit' element={<PlantTheme component={<Outlet/>}/>}>
                     <Route path=':usereditid' element={<UserInfoEdit />} />
                   </Route>
                   <Route path='/login' element={<Login />} />

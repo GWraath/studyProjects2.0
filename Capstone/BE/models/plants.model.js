@@ -71,12 +71,14 @@ Plants.getOne = (id, result) => {
   });
 };
 
-//Gets plants by letters in common name
-Plants.getByStartingLetter = (letter, result) => {
-  let query = "SELECT PlantCName FROM plants";
+//Gets plants by starting letters
+Plants.getByStartingLetter = (letters, result) => {
+  // const lettersString = letters.join(',')
+  console.log(letters)
+  let query = "SELECT * FROM plants";
 
-  if (letter) {
-    query += ` WHERE PlantCName LIKE '%${letter}%'`;
+  if (letters) {
+    query += ` WHERE PlantCName LIKE "%${letters.replace(',','%')}%"`;
   }
   console.log(query)
 
@@ -92,7 +94,7 @@ Plants.getByStartingLetter = (letter, result) => {
   });
 };
 
-//Gets plants by fitamins
+//Gets plants by vitamins
 Plants.getByVitamins = (letters, result) => {
   // const lettersString = letters.join(',')
   console.log(letters)

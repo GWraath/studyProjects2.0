@@ -13,7 +13,7 @@ module.exports = app => {
     router.get("/", plants.findAll);
   
     // // Retrieve searched plants by common name
-    router.get("/search/:letter", plants.findByStartingLetter);
+    router.get("/search/:letters", plants.findByStartingLetter);
 
     // // Retrieve searched plants by vitamins
     router.get("/search/vit/:letters", plants.findByStartingVitamin);

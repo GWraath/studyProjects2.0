@@ -62,10 +62,23 @@ exports.findAll = (req, res) => {
   });
 };
 
-// Retrieve all plants from the database.
+// // Retrieve all plants from the starting with "letters".
+// exports.findByStartingLetter = (req, res) => {
+//   const letters = req.params.letters;
+//   Plants.getByStartingLetter(letters, (err, data) => {
+//     if (err)
+//       res.status(500).send({
+//         message:
+//           err.message || "Could not find plant(s) at this time."
+//       });
+//     else res.send(data);
+//   });
+// };
+
+// Retrieve plants by vitamins.
 exports.findByStartingLetter = (req, res) => {
-  const letter = req.params.letter;
-  Plants.getByStartingLetter(letter, (err, data) => {
+  const letters = req.params.letters;
+  Plants.getByStartingLetter(letters, (err, data) => {
     if (err)
       res.status(500).send({
         message:

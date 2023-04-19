@@ -25,6 +25,7 @@ const Navbar=()=> {
           <NavLink id="link" to='/'>Home</NavLink>
           {currentUser && currentUser.UserAdmin ? users : null}
           {currentUser ? <NavLink id="link" to='/profile'>{currentUser.UserName}</NavLink> : <NavLink id="link" to='/login' >Login</NavLink>}
+          {currentUser ? <NavLink id="link" to='/chat'>Chat</NavLink> : null}
         </Typography>
       </Toolbar>
       <Typography variant="h6" id="toolSearch">
