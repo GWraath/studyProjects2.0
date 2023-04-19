@@ -1,0 +1,47 @@
+[
+	{
+		"PlantIMGURL" : "",
+		"PlantCName" : "Great Bougainvillea",
+		"PlantLName" : "Bougainvillea Spectabilis",
+		"PlantVitamins" : "A,B,C,E",
+		"PlantMinerals" : "Zinc, Potassium",
+		"PlantPharmaProps" : "Anti-fertility, anti-oxidant, anti-diabetic",
+		"id" : 1
+	},
+	{
+		"PlantIMGURL" : "https://ml2dm8xdgdhc.i.optimole.com/QozjP2M-jTU_D3Zl/w:auto/h:auto/q:mauto/f:avif/https://shaman.co.nz/wp-content/uploads/2016/09/Nettle.jpg",
+		"PlantCName" : "Stinging Nettle",
+		"PlantLName" : "Urtica Dioica",
+		"PlantVitamins" : "A,B,C,K",
+		"PlantMinerals" : "Calcium, Iron, Magnesium, Phosphorus, Potassium, Sodium",
+		"PlantPharmaProps" : "Anti-inflamation, anti-oxidant, Neurological pain, athritis",
+		"id" : 2
+	},
+	{
+		"PlantIMGURL" : "",
+		"PlantCName" : "Tumeric",
+		"PlantLName" : "Curcuma Longa",
+		"PlantVitamins" : "C,B6",
+		"PlantMinerals" : "Calcium, iron, magnesium, zinc, potassium, manganese, copper",
+		"PlantPharmaProps" : "Anti-cancer, heart disease, Alzheimer's and other degenerative conditions",
+		"id" : 3
+	},
+	{
+		"PlantIMGURL" : "",
+		"PlantCName" : "Fennel (black seed)",
+		"PlantLName" : "Nigella Sativa",
+		"PlantVitamins" : "A,B,C,E",
+		"PlantMinerals" : "Phosphorus, iron, zinc, copper",
+		"PlantPharmaProps" : "Anti-inflamitory, heart & brain diseases, immune system boost, anti-diabetic",
+		"id" : 4
+	},
+	{
+		"PlantIMGURL" : "",
+		"PlantCName" : "Cinnamon",
+		"PlantLName" : "Cinnamomum Verum",
+		"PlantVitamins" : "B,K",
+		"PlantMinerals" : "Potassium, Calclium, Magnesium",
+		"PlantPharmaProps" : "Anti-viral, anti-fungal, anti-bacterial, lower blood pressure",
+		"id" : 5
+	}
+]

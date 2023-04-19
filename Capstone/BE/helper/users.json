@@ -1,0 +1,42 @@
+[
+	{
+		"UserName" : "user1",
+		"PassWord" : "password1",
+		"FName" : "pass",
+		"LName" : "word",
+		"UserAdmin" : 0,
+		"id" : 1
+	},
+	{
+		"UserName" : "user2",
+		"PassWord" : "password2",
+		"FName" : "Courtney",
+		"LName" : "Tech",
+		"UserAdmin" : 0,
+		"id" : 2
+	},
+	{
+		"UserName" : "user3",
+		"PassWord" : "password3",
+		"FName" : "Dylan",
+		"LName" : "Howard",
+		"UserAdmin" : 1,
+		"id" : 3
+	},
+	{
+		"UserName" : "user4",
+		"PassWord" : "password4",
+		"FName" : "Ang",
+		"LName" : "us",
+		"UserAdmin" : 0,
+		"id" : 4
+	},
+	{
+		"UserName" : "Admin",
+		"PassWord" : "password5",
+		"FName" : "Gareth",
+		"LName" : "Wootton",
+		"UserAdmin" : 1,
+		"id" : 5
+	}
+]

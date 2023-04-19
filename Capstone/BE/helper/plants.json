@@ -1,0 +1,92 @@
+[
+	{
+		"PlantIMGURL" : "https://ligayaonline.files.wordpress.com/2018/11/img_20181126_1402087647174152146670679.jpg",
+		"PlantCName" : "Great Bougainvillea",
+		"PlantLName" : "Bougainvillea Spectabilis",
+		"PlantVitamins" : "A,B,C,E",
+		"PlantMinerals" : "Zinc, Potassium",
+		"PlantPharmaProps" : "Anti-fertility, anti-oxidant, anti-diabetic",
+		"PlantDesc":"Beautiful purple flower nettle that just doesn't die.",
+		"id" : 1
+	},
+	{
+		"PlantIMGURL" : "https://shaman.co.nz/wp-content/uploads/2016/09/Nettle.jpg",
+		"PlantCName" : "Stinging Nettle",
+		"PlantLName" : "Urtica Dioica",
+		"PlantVitamins" : "A,B,C,K",
+		"PlantMinerals" : "Calcium, Iron, Magnesium, Phosphorus, Potassium, Sodium",
+		"PlantPharmaProps" : "Anti-inflamation, anti-oxidant, Neurological pain, athritis",
+		"PlantDesc":"For an annoying plant, has a lot of impressive qualities.",
+		"id" : 2
+	},
+	{
+		"PlantIMGURL" : "http://cdn.shopify.com/s/files/1/1419/7120/products/Ginger_Curcuma_Longa_Tumeric_1_.SHUT.jpg",
+		"PlantCName" : "Turmeric",
+		"PlantLName" : "Curcuma Longa",
+		"PlantVitamins" : "C,B6",
+		"PlantMinerals" : "Calcium, Iron, Magnesium, Zinc, Potassium, Manganese, Copper",
+		"PlantPharmaProps" : "Anti-cancer, heart disease, Alzheimer's and other degenerative conditions",
+		"PlantDesc":"Easy",
+		"id" : 3
+	},
+	{
+		"PlantIMGURL" : "https://cdn11.bigcommerce.com/s-q83qdckkjh/images/stencil/1280x1280/products/178/2967/Nutmeg-FlowerBC__70531.1641232993.jpg",
+		"PlantCName" : "Fennel (black seed)",
+		"PlantLName" : "Nigella Sativa",
+		"PlantVitamins" : "A,B,C,E",
+		"PlantMinerals" : "Phosphorus, Iron, Zinc, Copper",
+		"PlantPharmaProps" : "Anti-inflammatory, heart & brain diseases, immune system boost, anti-diabetic",
+		"PlantDesc":"Easy",
+		"id" : 4
+	},
+	{
+		"PlantIMGURL" : "https://cdn.britannica.com/34/204734-050-9BCA9A53/Trunk-cinnamon-tree.jpg",
+		"PlantCName" : "Cinnamon",
+		"PlantLName" : "Cinnamomum Verum",
+		"PlantVitamins" : "B,K",
+		"PlantMinerals" : "Potassium, Calclium, Magnesium",
+		"PlantPharmaProps" : "Anti-viral, anti-fungal, anti-bacterial, lower blood pressure",
+		"PlantDesc":"Easy",
+		"id" : 5
+	},
+	{
+		"PlantIMGURL" : "https://www.plantrescue.co.nz/images/378739/pid1138148/Lavender_dendata_Monet.jpg",
+		"PlantCName" : "Lavender",
+		"PlantLName" : "Lavandula",
+		"PlantVitamins" : "A",
+		"PlantMinerals" : "Potassium, Sodium, Magnesium, Iron, Zinc, Copper",
+		"PlantPharmaProps" : "Anti-bacterial, anti-fungal, anti-anxiety, anti-pests (flies and ants)",
+		"PlantDesc":"Easy",
+		"id" : 6
+	},
+	{
+		"PlantIMGURL" : "https://www.aljazeera.com/wp-content/uploads/2022/03/Hemp-Plant-HIA-Shared-24.jpg",
+		"PlantCName" : "Hemp",
+		"PlantLName" : "Cannabis Sativa ssp, sativa",
+		"PlantVitamins" : "E, Omega 3+6",
+		"PlantMinerals" : "Potassium, Calclium, Magnesium, Iron, Zinc",
+		"PlantPharmaProps" : "Anti-cholesterol, Anti-inflammatory, anti-stress, anti-neuroinflammatory",
+		"PlantDesc":"Easy",
+		"id" : 7
+	},
+	{
+		"PlantIMGURL" : "https://www.mayernikkitchen.com/pub/herb-images/20200716094801_Calendula.jpg",
+		"PlantCName" : "Calendula",
+		"PlantLName" : "Calendula officinalis",
+		"PlantVitamins" : "A",
+		"PlantMinerals" : "Magnesium, Selenium, Zinc, Copper",
+		"PlantPharmaProps" : "Anti-inflammatory, Anti-viral",
+		"PlantDesc":"A pretty plant used mainly for viral infections",
+		"id" : 8
+	},
+	{
+		"PlantIMGURL" : "https://www.nature-and-garden.com/wp-content/uploads/sites/4/2018/08/dandelion.jpg",
+		"PlantCName" : "Dandelion",
+		"PlantLName" : "Taraxacum",
+		"PlantVitamins" : "D",
+		"PlantMinerals" : "Magnesium, Zinc",
+		"PlantPharmaProps" : "Laxitive, Diuretic",
+		"PlantDesc":"A very common plant with impressive qualities",
+		"id" : 9
+	}
+]
