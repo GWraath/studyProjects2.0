@@ -1,15 +1,6 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
+import {Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Box, Typography,
+Container, Link} from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {useEffect, useState, useContext} from 'react';
 import axios from 'axios';
@@ -47,6 +38,7 @@ export default function PlantUsers() {
   const {users, setUsers} = useContext(UsersContext);
   const [page, setPage] = useState(1);
   const [deleted, setDeleted] = useState(false);
+  const [userList, setUserList] = useState(0)
   const UsersPerPage = 6;
   let navigate = useNavigate();
 
@@ -73,6 +65,12 @@ export default function PlantUsers() {
     .then(response=> {console.log(response); setUsers(response.data)})
     .catch(error => {console.log(error)})
     },[page, deleted])
+
+    useEffect(()=> {
+      axios.get(`http://localhost:8080/api/users`)
+      .then(response=> {console.log(response); setUserList(response.data)})
+      .catch(error => {console.log(error)})
+      },[])
 
   //deletes the user
   const userDelete = (deluserid) => {
@@ -135,7 +133,7 @@ export default function PlantUsers() {
       {/* Footer */}
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
-        <PlantPages pageHandler={setPage}/>
+        <PlantPages pageHandler={setPage} list={userList.length}/>
         </Typography>
         <Typography
           variant="subtitle1"

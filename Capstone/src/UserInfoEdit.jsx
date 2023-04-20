@@ -2,8 +2,7 @@ import React from 'react'
 import {useParams} from 'react-router-dom'
 import {useEffect, useState} from 'react'
 import axios from 'axios'
-import { Button } from '@mui/material'
-import TextField from '@mui/material/TextField';
+import { Button, TextField } from '@mui/material'
 import { useNavigate } from "react-router-dom";
 
 export const UserInfoEdit = () => {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid,
-Box, Typography, Container, Link} from '@mui/material';
+  Box, Typography, Container, Link} from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {useEffect, useState, useContext} from 'react';
 import axios from 'axios';
@@ -34,7 +34,7 @@ const theme = createTheme({
   },
 });
 
-export default function PlantHome() {
+export default function PlantMarketplace() {
   const {setPageType} = useContext(PageTypeContext);
   const {plants, setPlants} = useContext(PlantContext);
   const {plantLike, setPlantLike} = useContext(PlantLikeContext)
@@ -117,7 +117,7 @@ export default function PlantHome() {
             gutterBottom
             >
             This website contains many medicinal plants. We recommend that you use this information in conjunction with your doctor or nutritionalist.
-          {currentUser ? <div><Button variant="outlined" id="buttonWhite" size="small" href={"/plantnew/"}>Add a plant</Button></div> : null}
+          {currentUser ? <div><Button variant="outlined" id="buttonWhite" size="small" href={"/plantnew/"}>List a plant</Button></div> : null}
           </Typography>
           <Typography variant="h6" id="toolDrop">
           <DropDownVar/><br></br>

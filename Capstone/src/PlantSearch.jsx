@@ -1,12 +1,11 @@
 import React from 'react'
 import axios from 'axios'
 import { useState, useEffect, useContext } from 'react'
-import TextField from '@mui/material/TextField';
+import {TextField, Button} from '@mui/material';
 import {PlantContext} from './App'
 import {PageTypeContext} from './App'
 import {UsersContext} from './App'
 import PlantHome from './PlantHome';
-import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 

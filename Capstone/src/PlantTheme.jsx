@@ -1,9 +1,5 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import {Outlet} from 'react-router-dom';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
+import {CssBaseline, Box, Typography, Container} from '@mui/material/';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 //sets the theme

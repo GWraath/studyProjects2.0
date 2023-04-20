@@ -1,8 +1,5 @@
 import React from 'react'
-import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
+import {FormControl, InputLabel, MenuItem, Select} from '@mui/material/';
 import CheckBoxFilters from './CheckBoxFilters';
 import { useState } from "react";
 import axios from 'axios'
