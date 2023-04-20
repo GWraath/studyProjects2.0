@@ -77,7 +77,7 @@ Plants.getByStartingLetter = (letters, result) => {
   console.log(letters)
   let query = "SELECT * FROM plants";
 
-  if (letters) {
+  if (letters && letters.toLowerCase() != 'vit') {
     query += ` WHERE PlantCName LIKE "%${letters.replace(',','%')}%"`;
   }
   console.log(query)
