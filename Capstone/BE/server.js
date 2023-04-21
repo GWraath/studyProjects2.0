@@ -1,8 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const http = require('http');
-const { Server } = require("socket.io");
 
 const app = express();
 
@@ -25,21 +23,6 @@ app.get("/", (req, res) => {
 
 require("./routes/plants.routes.js")(app);
 require("./routes/users.routes.js")(app);
-
-const server = http.createServer(app);
-const io = new Server(server);
-
-app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
-});
-
-io.on('connection', (socket) => {
-io.emit('connection', 'a user connected');
-});
-
-server.listen(3000, () => {
-console.log('listening on *:3000');
-});
 
 // set port, listen for requests
 const PORT = process.env.NODE_DOCKER_PORT || 8080;

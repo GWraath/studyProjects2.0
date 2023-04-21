@@ -14,6 +14,6 @@ io.on('connection', (socket) => {
 io.emit('connection', 'a user connected');
 });
 
-server.listen(3000, () => {
+server.listen(3001, () => {
 console.log('listening on *:3000');
 });

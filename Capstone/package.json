@@ -1,7 +1,7 @@
 {
   "name": "tiptotoe",
   "private": true,
-  "proxy": "http://localhost:3000/",
+  "proxy": "http://localhost:5173/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -18,9 +18,11 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
+    "socket.io-client": "^4.6.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
